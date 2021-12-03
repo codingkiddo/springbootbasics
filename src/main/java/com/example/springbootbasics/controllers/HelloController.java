@@ -27,7 +27,7 @@ public class HelloController {
 		System.out.println(this.toString());
 		System.out.println("Name: " + name);
 		session.setAttribute("name", name);
-		System.out.println(session);
+		System.out.println("Session: " + session);
 		return "hello";
 	}
 	
